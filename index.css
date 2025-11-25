@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.para {
+    font-family: "Mukta Malar", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #15143966;
+    font-weight: 700;
+}
+
+.s-btn, .l-btn, .card-bottom button, .showcase-text button, .mb button {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: #15143966;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.l-btn {
+    background: #25DAC5;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 35px;
+}
+
+.h-btn {
+    color: #25DAC5;
+}
+
+.s-btn:hover {
+    background: #25DAC5;
+    color: #fff;
+    border-radius: 35px;
+    padding: 12px 25px;
+
+}
+
+.l-btn:hover {
+    background: #fff;
+    color: #25DAC5;
+    border: 1px solid #25DAC5;
+}
+
+.logo-item {
+    margin-top: 18px;
+}
+
+.call-to-action, .h-btn {
+    margin-top: 10px;
+}
+
+.nav-img {
+    margin-top: 5px;
+}
+
+.hero {
+    text-align: center;
+    margin: 60px 0 0;
+}
+
+.hero h1 {
+    color: #1E0E62;
+    font-size: 65px;
+    margin: 0;
+}
+
+.hero p {
+    color: #919DAB;
+    margin: 30px 0 50px;
+    font-size: 20px;
+}
+
+.content {
+    background: url("./images/Image.png") no-repeat center bottom /cover #2F1893;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    margin: 70px 0 0;
+}
+
+.content-body {
+    color: #fff;
+    position: absolute;
+    bottom: 130px;
+    left: 220px;
+}
+
+.features {
+    margin: 60px 0;
+}
+.feature-top {
+    text-align: center;
+}
+
+.feature-top h2, .feature-bottom-top h4, .top-ecom-section h1, .card-section p, .card-bottom button, .showcase-text p {
+    color: #1E0E62;
+    font-weight: 700;
+}
+
+.card-bottom button {
+    font-size: 14px;
+}
+
+.feature-top p {
+    color: #15143966;
+    margin: 30px 0 45px;
+}
+
+.feature-bottom-top {
+    display: flex;
+    text-align: center;
+    gap: 295px;
+}
+
+.feature-bottom-top small {
+    display: block;
+    color: #15143966;
+}
+
+.feature-bottom, .bottom-wrap, .call-sec, .showcase-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.showcase-card {
+    display: flex;
+    gap: 130px;
+}
+
+.testimonials {
+    background: #1E0E62;
+    padding: 50px 0;
+}
+
+.side-item {
+    display: flex;
+    gap: 25px;
+}
+
+.text-item small {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sm {
+    margin-top: 15px;
+    color: #ffffff7e !important;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.top-ecom-section {
+    text-align: center;
+}
+
+.top-ecom-section p, .card-section small, .card-bottom small, .showcase-text small {
+    color: #15143966;
+}
+
+.bottom-ecom-section {
+    display: flex;
+    gap: 30px;
+}
+
+.card-section small {
+    text-transform: uppercase;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 15px;
+}
+
+.card-section small, .card-section p {
+    margin: 0 0 10px 15px;
+}
+
+.ecommerce {
+    margin: 90px 0;
+}
+
+.callToAction {
+    display: flex;
+    gap: 80px;
+}
+
+.call-sec {
+    background: url(./images/Rectangle.png) no-repeat center center /cover #2F1893;
+    height: 500px;
+}
+
+.call-form small, .call-form h1 {
+    color: #fff;
+}
+
+.in-text {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid #ffffff33;
+    padding: 15px;
+    color: #fff;
+    border-radius: 25px;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.in-text::placeholder {
+    color: #ffffff33;
+    font-weight: 700;
+}
+
+small {
+    display: block;
+}
+
+.showcase-text button {
+    color: #1E0E62;
+    font-size: 13px;
+    font-weight: 400;
+    border: 2px solid #EBEAED;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+.showcase-img img {
+    width: 100%;
+}
+
+
+.showcase-text {
+    margin: 20px 0;
+}
+
+.team {
+    background: url(./images/Background.png) no-repeat center center /cover #1E0E62;
+    height: 600px;
+    padding: 60px 0;
+    margin: 60px 0;
+}
+
+.team-top {
+    color: #fff;
+    text-align: center;
+}
+
+.team-top p {
+    color: #919DAB;
+}
+
+.team-card {
+    background: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.team-card p {
+    color: #1E0E62;
+}
+
+.team-card-section {
+    display: flex;
+}
+
+.team-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t2 {
+    border-left: 1px solid #EBEAED;
+    border-right: 1px solid #EBEAED;
+}
+
+.t1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.t3 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mb {
+    text-align: center;
+    margin: 60px 0 0;
+}
+
+.mb button {
+    color: #fff;
+    border: 2px solid #ffffff72;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
