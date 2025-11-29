@@ -33,7 +33,7 @@ nav ul li a {
     font-weight: 700;
 }
 
-.s-btn, .l-btn, .card-bottom button, .showcase-text button, .mb button {
+.s-btn, .l-btn, .card-bottom button, .showcase-text button, .mb button, .price-card button {
     border: 0;
     outline: none;
     box-shadow: none;
@@ -120,7 +120,7 @@ nav ul li a {
     text-align: center;
 }
 
-.feature-top h2, .feature-bottom-top h4, .top-ecom-section h1, .card-section p, .card-bottom button, .showcase-text p {
+.feature-top h2, .feature-bottom-top h4, .top-ecom-section h1, .card-section p, .card-bottom button, .showcase-text p, .price-top h2, .price-card p {
     color: #1E0E62;
     font-weight: 700;
 }
@@ -189,7 +189,7 @@ nav ul li a {
     text-align: center;
 }
 
-.top-ecom-section p, .card-section small, .card-bottom small, .showcase-text small {
+.top-ecom-section p, .card-section small, .card-bottom small, .showcase-text small, .price-card small {
     color: #15143966;
 }
 
@@ -251,7 +251,7 @@ small {
     display: block;
 }
 
-.showcase-text button {
+.showcase-text button, .price-card button {
     color: #1E0E62;
     font-size: 13px;
     font-weight: 400;
@@ -300,7 +300,7 @@ small {
     display: flex;
 }
 
-.team-overlay {
+.team-overlay, .price-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -334,3 +334,43 @@ small {
     font-weight: 400;
 }
 
+.price-top, .price-card, .price-btn {
+    text-align: center;
+}
+
+.price-top small {
+    text-transform: uppercase;
+    color: #15143966;
+    font-weight: 600;
+}
+
+.price-card p {
+    line-height: 2;
+}
+
+.price-btn img {
+    margin-top: 40px;
+}
+
+.ct {
+    margin: 0;
+    font-weight: 500 !important;
+}
+
+.price-btn button {
+    font-weight: 700;
+}
+
+.price-btn button:hover {
+    background: #25DAC5;
+    color: #fff;
+}
+
+.price-section {
+    display: flex;
+    gap: 80px;
+}
+
+.price-bottom {
+    margin: 30px 0;
+}
